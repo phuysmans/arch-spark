@@ -11,7 +11,7 @@ user:
 hostname: desktop-xps13-ph
 
 dotfiles:
-    url: ssh://git@github.com:phuysmans/arch-dotfiles.git
+    url: https://github.com:phuysmans/arch-dotfiles
     destination: projects/dotfiles
     rcup_flags: -fx README.md 
 

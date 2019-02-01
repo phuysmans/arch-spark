@@ -227,7 +227,6 @@ base_fonts:
     - noto-fonts
     - ttf-dejavu
     - ttf-liberation
-    - ttf-symbola
     - gsfonts
     - tex-gyre-fonts
     - ttf-droid
@@ -245,6 +244,7 @@ aur_fonts:
     - ttf-caladea
     - ttf-courier-prime
     - ttf-heuristica
+    - ttf-symbola
 
 #syncthing:
 #    run_on: trusted

@@ -3,7 +3,7 @@ user:
     uid: 1000
     group: users
     shell: /usr/bin/zsh
-    email:  @
+    email:  philippe.huysmans@pythagoria.com
     log:
         dir: log
         rotate: 8
@@ -13,7 +13,7 @@ hostname: desktop-
 dotfiles:
     url: git@github.com:phuysmans/arch-dotfiles.git
     destination: projects/dotfiles
-    rcup_flags: -fx README.md -x setup 
+    rcup_flags: -fx README.md 
 
 aur:
     dir: aur
@@ -88,6 +88,7 @@ base_packages:
     - screen
     - units
     - python-pipenv
+    - docker
 
 filesystem_packages:
     - dosfstools
@@ -99,9 +100,9 @@ browser_choices:
     - firefox -P work
     - firewarden chromium
     - tor-browser-en
-    - play
-    - qcode
-    - "| xclip -selection c"
+    #- play
+    #- qcode
+    #- "| xclip -selection c"
 
 passwordless_sudo:
     # - /usr/bin/openvpn*
